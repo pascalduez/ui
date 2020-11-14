@@ -1,0 +1,12 @@
+{
+  "name": "ui",
+  "version": "0.1.0",
+  "license": "Unlicense",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "prettier": "^2.1.2"
+  }
+}

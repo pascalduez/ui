@@ -1,0 +1,11 @@
+{
+  "name": "@ui/hooks",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "Unlicense",
+  "devDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-test-renderer": "^17.0.1"
+  }
+}
