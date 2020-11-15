@@ -7,9 +7,28 @@
     "packages/*"
   ],
   "scripts": {
+    "start": "start-storybook -p 1337 -c .storybook",
     "test": "jest"
   },
+  "resolutions": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
   "devDependencies": {
-    "prettier": "^2.1.2"
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.5",
+    "@storybook/addon-docs": "^6.0.28",
+    "@storybook/addons": "^6.0.28",
+    "@storybook/react": "^6.0.28",
+    "@testing-library/dom": "^7.26.6",
+    "@testing-library/react": "^11.1.2",
+    "@testing-library/user-event": "^12.2.2",
+    "jest": "^26.6.3",
+    "prettier": "^2.1.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-is": "^17.0.1",
+    "react-test-renderer": "^17.0.1"
   }
 }
