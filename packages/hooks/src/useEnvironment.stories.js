@@ -1,5 +1,3 @@
-import * as React from 'react';
-
 import { useEnvironment } from './useEnvironment';
 
 export default {

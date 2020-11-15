@@ -20,7 +20,7 @@
     "@babel/preset-react": "^7.12.5",
     "@storybook/addon-docs": "^6.0.28",
     "@storybook/addons": "^6.0.28",
-    "@storybook/react": "^6.0.28",
+    "@storybook/react": "^6.1.0-rc.2",
     "@testing-library/dom": "^7.26.6",
     "@testing-library/react": "^11.1.2",
     "@testing-library/user-event": "^12.2.2",
