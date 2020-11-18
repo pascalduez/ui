@@ -1,9 +1,9 @@
 {
   "name": "@ui/utils",
   "version": "0.1.0",
-  "main": "index.js",
   "license": "Unlicense",
-  "devDependencies": {},
+  "main": "index.cjs.js",
+  "module": "index.js",
   "peerDependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1"

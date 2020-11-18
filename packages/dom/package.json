@@ -1,6 +1,7 @@
 {
   "name": "@ui/dom",
   "version": "0.1.0",
-  "main": "index.js",
-  "license": "Unlicense"
+  "license": "Unlicense",
+  "main": "index.cjs.js",
+  "module": "index.js"
 }
