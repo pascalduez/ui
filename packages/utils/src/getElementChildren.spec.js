@@ -1,6 +1,6 @@
-import * as ReactIs from 'react-is';
+import { isElement } from 'react-is';
 
-import { getElementChildren } from './react';
+import { getElementChildren } from './getElementChildren';
 
 describe('getElementChildren', () => {
   it('should filter children and return only React Elements', () => {
@@ -15,8 +15,8 @@ describe('getElementChildren', () => {
       </>
     );
 
-    expect(
-      getElementChildren(element.props.children).every(ReactIs.isElement)
-    ).toBe(true);
+    expect(getElementChildren(element.props.children).every(isElement)).toBe(
+      true
+    );
   });
 });

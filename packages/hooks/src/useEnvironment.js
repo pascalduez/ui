@@ -1,8 +1,4 @@
-import {
-  canUseDOM,
-  canUseEventListeners,
-  canUsePassiveEvents,
-} from '@ui/utils/dom';
+import { canUseDOM, canUseEventListeners, canUsePassiveEvents } from '@ui/dom';
 
 export function useEnvironment() {
   return {
