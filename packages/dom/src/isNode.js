@@ -1,11 +1,11 @@
 // @flow
 
-declare function isNode(node: any): boolean %checks(node instanceof Node);
+declare function isNode(value: mixed): boolean %checks(value instanceof Node);
 
-export function isNode(node) {
+export function isNode(value) {
   return !!(
-    node &&
-    typeof node.nodeType === 'number' &&
-    typeof node.nodeName === 'string'
+    value &&
+    typeof value.noteType === 'number' &&
+    typeof value.nodeName === 'string'
   );
 }

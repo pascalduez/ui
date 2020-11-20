@@ -1,9 +1,9 @@
 // @flow
 
-import { isNode } from './isNode';
+import { isElement } from './isElement';
 
 export function isAnimating(node: HTMLElement): boolean {
   return (
-    isNode(node) && node.getAnimations().some(a => a.playState === 'running')
+    isElement(node) && node.getAnimations().some(a => a.playState === 'running')
   );
 }
