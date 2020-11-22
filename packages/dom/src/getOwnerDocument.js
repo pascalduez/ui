@@ -1,5 +1,7 @@
 // @flow
 
+import { isNode } from './isNode';
+
 export function getOwnerDocument(node: any): Document {
-  return (node && node.ownerDocument) || document;
+  return (isNode(node) && node.ownerDocument) || document;
 }
