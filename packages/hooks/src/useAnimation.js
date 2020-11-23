@@ -1,6 +1,16 @@
+// @flow
+
 import { useReducer } from 'react';
 import { unstable_batchedUpdates as batchedUpdates } from 'react-dom';
 import { useLayoutEffect } from './useLayoutEffect';
+import { useEventCallback } from './useEventCallback';
+
+declare function useAnimation(state?: {| visible: boolean |}): {|
+  render: boolean,
+  animating: boolean,
+  animatingStart: (evt?: SyntheticAnimationEvent<>) => mixed,
+  onAnimationEnd: (evt?: SyntheticAnimationEvent<>) => mixed,
+|};
 
 const initialState = {
   render: false,
@@ -22,7 +32,7 @@ function reducer(state, action) {
   }
 }
 
-export function useAnimate(props = {}) {
+export function useAnimation(props = {}) {
   const { visible = false } = props;
   const [{ render, animating }, dispatch] = useReducer(reducer, initialState);
 
