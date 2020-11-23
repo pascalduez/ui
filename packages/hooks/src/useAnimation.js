@@ -5,7 +5,7 @@ import { unstable_batchedUpdates as batchedUpdates } from 'react-dom';
 import { useLayoutEffect } from './useLayoutEffect';
 import { useEventCallback } from './useEventCallback';
 
-declare function useAnimation(state?: {| visible: boolean |}): {|
+declare function useAnimation(props?: {| visible: boolean |}): {|
   render: boolean,
   animating: boolean,
   animatingStart: (evt?: SyntheticAnimationEvent<>) => mixed,

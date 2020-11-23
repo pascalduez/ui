@@ -11,9 +11,8 @@ import { useLayoutEffect } from './useLayoutEffect';
 
 const QUERY = '(prefers-reduced-motion: no-preference)';
 
-const getInitialState = () => {
-  return canUseDOM ? !window.matchMedia(QUERY).matches : true;
-};
+const getInitialState = () =>
+  canUseDOM ? !window.matchMedia(QUERY).matches : true;
 
 export function usePrefersReducedMotion() {
   const [prefersReducedMotion, setPrefersReducedMotion] = useState(
