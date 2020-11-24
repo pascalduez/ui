@@ -5,4 +5,4 @@ export { canUsePassiveEvents } from './src/canUsePassiveEvents';
 export { getOwnerDocument } from './src/getOwnerDocument';
 
 export { isNode } from './src/isNode';
-export { isAnimating } from './isAnimating';
+export { isAnimating } from './src/isAnimating';

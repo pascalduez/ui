@@ -1,4 +1,4 @@
-import { useEnvironment } from './useEnvironment';
+import { useEnvironment } from '../src/useEnvironment';
 
 export default {
   title: 'useEnvironment',

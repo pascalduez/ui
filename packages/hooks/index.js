@@ -1,7 +1,9 @@
-export { useAnimation } from './useAnimation';
-export { useEnvironment } from './useEnvironment';
-export { useInitialState } from './useInitialState';
-export { useInteractAway } from './useInteractAway';
-export { useLayoutEffect } from './useLayoutEffect';
-export { useEventCallback } from './useEventCallback';
-export { usePrefersReducedMotion } from './usePrefersReducedMotion';
+export { useAnimation } from './src/useAnimation';
+export { useTransition } from './src/useTransition';
+export { useEnvironment } from './src/useEnvironment';
+export { useInitialState } from './src/useInitialState';
+export { useInteractAway } from './src/useInteractAway';
+export { useLayoutEffect } from './src/useLayoutEffect';
+export { useUpdateEffect } from './src/useUpdateEffect';
+export { useEventCallback } from './src/useEventCallback';
+export { usePrefersReducedMotion } from './src/usePrefersReducedMotion';
